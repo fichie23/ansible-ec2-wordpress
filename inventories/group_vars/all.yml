@@ -1,0 +1,18 @@
+aws_region: ap-southeast-1
+
+vpc_id: vpc-053bfd1892ce26811
+subnets:
+  - subnet-0945e9c3b32ca487e
+  - subnet-0fa06babf935a1d6b
+
+sg_name: wordpress-sg
+ec2_sg_name: wordpress-ec2-sg
+
+elb_name: wordpress-elb
+
+tg_name: wordpress-tg
+
+ec2_name: wordpress-ec2
+ec2_ami_id : ami-0837c228762f03aeb #Bitnami Certified Wordpress AMI https://aws.amazon.com/marketplace/pp/prodview-bzstv3wbn5wkq?
+ec2_keypair : taufik-key
+ec2_instance_type : t2.micro
